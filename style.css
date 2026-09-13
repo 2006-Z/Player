@@ -1,0 +1,79 @@
+body {
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  margin-top: 0px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+.blocks-wrapper {
+  display: grid;
+  width: fit-content;
+  justify-items: stretch;
+  gap: 15px;
+}
+
+.contact-block {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 20px;
+  margin: 0;
+}
+
+.contact-main {
+  padding: 18px 28px;
+}
+
+.contact-block h2 {
+  margin: 0 0 8px 0;
+  font-size: 26px;
+  font-family: 'Times New Roman', serif;
+}
+
+.email-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  width: fit-content;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.up-logo {
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%) contrast(150%);
+}
+
+.top-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width: fit-content;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+.repo-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+hr {
+  margin-top: -20px;
+}
